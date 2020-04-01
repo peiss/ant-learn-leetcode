@@ -22,5 +22,5 @@ class Solution(object):
 
 s = Solution()
 # print(s.coinChange([1, 2, 5], 11))
-# print(s.coinChange([2], 3))
-print(s.coinChange([1, 2147483647], 2))
+print(s.coinChange([2], 3))
+#print(s.coinChange([1, 2147483647], 2))
