@@ -1,0 +1,13 @@
+{
+    "java.dependency.syncWithFolderExplorer": true,
+    "java.dependency.packagePresentation": "flat",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "files.associations": {
+        "vector": "cpp",
+        "iosfwd": "cpp",
+        "iterator": "cpp",
+        "__functional_03": "cpp",
+        "functional": "cpp",
+        "iostream": "cpp"
+    }
+}
