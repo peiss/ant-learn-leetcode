@@ -5,6 +5,27 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution",
+            "request": "launch",
+            "mainClass": "p206_Reverse_Linked_List.Solution",
+            "projectName": "leetcode_java_codes"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "leetcode_java_codes"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution",
+            "request": "launch",
+            "mainClass": "p01_two_sum.Solution",
+            "projectName": "leetcode_java_codes"
+        },
+        {
             "name": "clang++ - 生成和调试活动文件",
             "type": "cppdbg",
             "request": "launch",

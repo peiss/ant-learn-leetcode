@@ -5,11 +5,11 @@ class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         # 存储内容：当前元素的差值和下标
         my_dict = {}
-        for idx, v in enumerate(nums):
-            if v in my_dict:
-                return [my_dict[v], idx]
+        for idx, value in enumerate(nums):
+            if value in my_dict:
+                return [my_dict[value], idx]
             else:
-                my_dict[target - v] = idx
+                my_dict[target - value] = idx
 
 
 s = Solution()

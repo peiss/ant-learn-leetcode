@@ -7,12 +7,13 @@ using namespace std;
 class Solution {
  public:
   vector<int> twoSum(vector<int> &nums, int target) {
-    unordered_map<int, int> indices;
-    for (int i = 0; i < nums.size(); i++) {
-      if (indices.find(target - nums[i]) != indices.end()) {
-        return {indices[target - nums[i]], i};
+    unordered_map<int, int> my_dict;
+    for (int idx = 0; idx < nums.size(); idx++) {
+      int curr_value = nums[idx];
+      if (my_dict.find(curr_value) != my_dict.end()) {
+        return {my_dict[curr_value], idx};
       }
-      indices[nums[i]] = i;
+      my_dict[target - curr_value] = idx;
     }
     return {};
   }
